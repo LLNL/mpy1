@@ -1,5 +1,5 @@
 #!/bin/sh
-# $Id: configure,v 1.1 2009-12-07 01:44:11 dhmunro Exp $
+# $Id: configure,v 1.1.1.1 2009-12-07 01:44:11 dhmunro Exp $
 #
 # skeleton configure script for MPY (Message Passing Yorick)
 # assumes top level configuration of distribution yorick already done

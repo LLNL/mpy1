@@ -1,5 +1,5 @@
 /*
- * $Id: testmp.i,v 1.1 2009-12-07 01:44:12 dhmunro Exp $
+ * $Id: testmp.i,v 1.1.1.1 2009-12-07 01:44:12 dhmunro Exp $
  * Small test suite for MPY testing.
  */
 /* Copyright (c) 2005, The Regents of the University of California.
