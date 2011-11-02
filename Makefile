@@ -81,9 +81,9 @@ distclean::
 	rm -f Makempy
 
 v1: Makempyv1 mpyv1.i testmpv1.i
-	$(MAKE) PKG_SUFFIX=v1
+	$(MAKE) PKG_SUFFIX=v1 EXTRA_PKGS="$(EXTRA_PKGS)"
 v1install: Makempyv1 mpyv1.i testmpv1.i
-	$(MAKE) PKG_SUFFIX=v1 install
+	$(MAKE) PKG_SUFFIX=v1 EXTRA_PKGS="$(EXTRA_PKGS)" install
 v1uninstall:
 	$(MAKE) PKG_SUFFIX=v1 uninstall
 
