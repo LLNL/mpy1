@@ -98,6 +98,7 @@ extern mp_recv;
 
    SEE ALSO: mp_send, mp_rank, mp_from, mp_task, mp_include, array
  */
+mp_recv1 = mp_recv;  /* for migration to mpy2 (see mpy1.i) */
 
 func mp_bcast(origin, msg, .., nfan=)
 /* DOCUMENT mp_bcast, mp_rank, msg
